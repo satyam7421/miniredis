@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  miniredis:
+    build: .
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./data:/app/data
+    restart: always
