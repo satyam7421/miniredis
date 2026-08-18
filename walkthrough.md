@@ -96,11 +96,4 @@ Total Test time (real) = 3.77 sec
 
 ---
 
-## 5. Master Resume Bullet Points
 
-You can confidently include the following entry on your resume:
-
-> **MiniRedis — Concurrent In-Memory Key-Value Store | C++20**
-> - **Engineered a high-performance, multithreaded Redis-inspired key-value store in C++20**, implementing TCP socket networking, object-oriented command parsing, thread-pool worker synchronization, and low-latency key-value storage.
-> - **Implemented dual persistence engines (Append-Only File WAL & binary RDB snapshotting)**, supporting automatic startup log replay and crash recovery.
-> - **Designed a custom benchmark suite and GoogleTest integration**, achieving **20,696 req/sec throughput at 0.28 ms p95 latency** across 50 concurrent client connections.
